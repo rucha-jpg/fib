@@ -32,7 +32,7 @@ class Yay
             return Foo2(n + i, --i);
         }
 
-        static int Foo3(int n, int i) { }
+        static int Foo3(int n, int i) { return 0; }
 
         /*
          [
